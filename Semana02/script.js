@@ -38,7 +38,7 @@ atualizarRelogio();
 function verificarPalindromo() {
     
     const texto = document.getElementById("entradaTexto").value;//digitação do texto 
-    const textoLimpo = texto.replace(/\s+/g, '');//remove espaços
+    const textoLimpo = texto.replace(/\s+/g, '');//remove espaços.
     const ehPalindromo = textoLimpo === textoLimpo.split('').reverse().join('');//verificação
 
     if (ehPalindromo) {
